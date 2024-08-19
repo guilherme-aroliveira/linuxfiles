@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=WeekToDo
+Comment=Minimalist Weekly Planner
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/Applications/weektodo/WeekToDo-2.2.0.AppImage %U
+Icon=/home/guilherme/Documents/Configs/desktop_icons/icon_img/todo.png
+Categories=Office;Utility
+Terminal=false

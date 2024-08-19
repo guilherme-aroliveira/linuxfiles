@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=FileZilla
+Comment=The free FTP solution
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/Applications/filezilla3/bin/filezilla %U
+Icon=/home/guilherme/Documents/icons/filezilla.png
+Categories=Application;Network;
+Terminal=false
+StartupNotify=true

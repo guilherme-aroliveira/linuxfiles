@@ -1,0 +1,10 @@
+[Desktop Entry]
+version=1.0
+Name=Morgen
+Comment=Unified calendar, scheduler and task manager
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/Applications/morgen/morgen-3.0.1.AppImage %U
+Icon=/home/guilherme/Documents/icons/calendar.png
+Categories=Application;
+Terminal=false

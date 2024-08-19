@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Burpsuite Community
+Comment=Application Security Testing Software
+Encoding=UTF-8
+Exec=/home/ghost/Programs/HackingTools/burpsuite_ce/burpsuite_ce.sh %U
+Icon=/home/ghost/Documents/configs/Desktop_Icons/icon_img/burp.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Application;Network;Security;
+#StartupWMClass=ZAP

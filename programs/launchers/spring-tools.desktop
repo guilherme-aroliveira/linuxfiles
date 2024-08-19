@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Spring Tools 4
+Comment=Spring Tool Suite for Eclipse 
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/IDEs/springtools-4/SpringToolSuite4 %U
+Icon=/home/guilherme/Documents/icons/eclipse.png
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true
+StartupWMClass=SpringToolSuite4

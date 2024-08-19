@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Dropbox
+GenericName=File Synchronizer
+Comment=Sync your files across computers and to the web
+Exec=/home/guilherme/Programs/Applications/dropbox-headless/dropboxd %U
+Icon=/home/guilherme/Documents/Configs/desktop_icons/icon_img/dropbox.png
+Terminal=false
+Type=Application
+Categories=Network;FileTransfer;
+Keywords=file;synchronization;sharing;collaboration;cloud;storage;backup;
+StartupNotify=false
+

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=MuseScore
+Comment=Free music composition and notation software
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/Applications/musescore/MuseScore-4.1.1.232071203-x86_64.AppImage %U
+Icon=/home/guilherme/Documents/icons/musescore.png
+Categories=Graphics;3DGraphics;
+Terminal=false

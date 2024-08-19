@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zed
+GenericName=Text Editor
+Comment=A high-performance, multiplayer code editor.
+TryExec=/home/guilherme/Programs/IDEs/zed/bin/zed
+StartupNotify=true
+Exec=/home/guilherme/Programs/IDEs/zed/bin/zed %U
+Icon=/home/guilherme/Documents/Configs/desktop_icons/icon_img/zed.png
+Categories=Utility;TextEditor;Development;IDE;
+Keywords=zed;
+MimeType=text/plain;inode/directory;
+
+[Desktop Action NewWorkspace]
+Exec=/home/guilherme/Programs/IDEs/zed/bin/zed --new %U
+Name=Open a new workspace

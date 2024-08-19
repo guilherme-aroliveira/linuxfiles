@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Obsidian
+Comment=private and flexible writing app that adapts to the way you think
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/Applications/obsidian/Obsidian-1.5.12.AppImage %U
+Icon=/home/guilherme/Documents/Configs/desktop_icons/icon_img/obsidian.png
+Categories=Office;Utility;TextEditor
+Terminal=false

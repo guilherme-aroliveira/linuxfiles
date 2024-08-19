@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=/home/guilherme/Programs/Applications/apppimage/appimagelauncher.AppImage AppImageLauncherSettings %f
+Name=AppImageLauncher Settings
+Icon=/home/guilherme/Documents/Configs/desktop_icons/icon_img/app_image_launcher.png
+Terminal=false
+Categories=Settings;
+X-AppImage-Integrate=false
+StartupWMClass=AppImageLauncherSettings

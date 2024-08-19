@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Robo 3T
+Comment=Free, open-source MongoDB GUI
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/IDEs/robo3t-1.4.3/bin/robo3t %U
+Icon=/home/guilherme/Documents/icons/mongodb.png
+Categories=Application;Development;
+Terminal=false
+StartupNotify=true

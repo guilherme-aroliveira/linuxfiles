@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Name=Mozilla Firefox 
+Comment=Firefox Browser
+GenericName=WebBrowser
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/Browsers/firefox/firefox %U
+Icon=/home/guilherme/Documents/icons/firefox.png
+Categories=Network;WebBrowser;
+Terminal=false
+StartupNotify=true
+#MimeType=application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ipfs;x-scheme-handler/ipns;
+#Actions=new-window;new-private-window;
+
+#[Desktop Action new-window]
+#Name=New Window
+#Exec=/home/guilherme/Programs/Browsers/firefox/firefox
+
+#[Desktop Action new-private-window]
+#Name=New Incognito Window

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=IntelliJ IDEA Community Edition 2023.2.2
+Icon=/home/guilherme/Documents/icons/intellij_idea.png
+StartupWMClass=jetbrains-idea-ce
+Comment=The IDE for pure Java and Kotlin development
+Exec=/home/guilherme/Programs/IDEs/intellij-idea-ce/bin/idea.sh %u
+Version=1.0
+Type=Application
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true

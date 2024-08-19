@@ -144,7 +144,12 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 fi # Fim do if do dircolor
 
-## Aliases (apelidos) diversos
+#-----------------------------
+# Alias
+#-----------------------------
+
+# Lista todos os arquidos e diretórios
+alias ll='ls -la'
 
 # Editar sources.list
 alias lists='sudo nano /etc/apt/sources.list'
@@ -152,113 +157,114 @@ alias lists='sudo nano /etc/apt/sources.list'
 # atualizar o apt-get
 alias upd='sudo apt-get update'
 
-# Reparar o apt-get
-alias aptrepair='sudo apt-get -f install'
+# Other alias
+alias nvim='$HOME/Programs/IDEs/neovim/bin/nvim'
+alias powershell='$HOME/Programs/Tools/microsoft/powershell-7/pwsh'
+alias vscodium='$HOME/Programs/IDEs/vscodium/bin/codium'
+alias pycharm='$HOME/Programs/IDEs/pycharm-ce/bin/pycharm.sh'
+alias logseq='$HOME/Programs/Applications/logseq/Logseq-linux-x64-0.10.9.AppImage'
+alias todoist='$HOME/Programs/Applications/todoist/Todoist-linux-9.4.0-x86_64.AppImage'
+alias vagrant='$HOME/Programs/Tools/vagrant/vagrant'
+alias vault='$HOME/Programs/Tools/hashicorp/vault/vault'
+alias firefox='$HOME/Programs/Browsers/firefox/firefox'
+alias dropbox='$HOME/Programs/Tools/dropbox/dropbox.py'
 
-# Reparar o dpkg
-alias dpkgrepair='sudo dpkg --configure -a'
-
-#==============================================
-# Aliases para uso no dia-a-dia e testes
-#==============================================
-
-alias ll='ls -la'
-
-#==============================================
-# SDKs added to the PATH
-#==============================================
+#------------------------------
+# SDKs
+#------------------------------
 
 #Java JDK
 export JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64/"
 export PATH=$PATH:$JAVA_HOME/bin
 
 #JavaFX
-export PATH="$PATH:/home/guilherme/Programs/Tools/javafx-sdk-20.0.2/lib/"
+export PATH="$PATH:$HOME/Programs/Tools/javafx-sdk-21.0.2/lib/"
 
 #.NET SDK
-export PATH="$PATH:/home/guilherme/Programs/Tools/dotnet-sdk-7/"
+export DOTNET_ROOT=$HOME/Programs/Tools/microsoft/dotnet-sdk-8
 
 #Flutter sdk
-export PATH="$PATH:/home/guilherme/Programs/Tools/flutter/bin/"
+export PATH="$PATH:$HOME/Programs/Tools/flutter/bin/"
 
 #Android sdk
-export ANDROID_HOME="/home/guilherme/Programs/Tools/android/sdk/"
+export ANDROID_HOME="$HOME/Programs/Tools/android/sdk/"
 export PATH=$PATH:$ANDROID_HOME/tools/cmdline-tools/version/bin/
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/build-tools/34.0.0
 
-#===========================================
-# Tools
-#===========================================
+#------------------------------
+# Servers
+#------------------------------
 
-#tfenv - terraform version manager
-export PATH="$PATH:/home/guilherme/.tfenv/bin/"
+#Apache tomcat
+export CATALINA_HOME="$HOME/Programs/Servers/apache-tomcat-10.1.19/"
+export PATH=$PATH:$CATALINA_HOME/bin
 
-#Aws Cli
-export PATH="$PATH:/home/guilherme/Programs/Tools/aws-cli/v2/2.13.13/bin/"
+#Wildfly
+#export JBOSS_HOME="/home/guilherme/Programs/Servers/wildfly-29.0.0"
+#export PATH=$PATH:$JBOSS_HOME/bin
+
+#------------------------------
+# CLIs
+#------------------------------
 
 #GitHub CLI
-export PATH="$PATH:/home/guilherme/Programs/Tools/gh_2.33.0/bin/"
+export PATH="$PATH:$HOME/Programs/Tools/github-cli/bin/"
+
+#Gitkraken CLI
+export PATH="$PATH:$HOME/Programs/Tools/gitkraken-cli/"
+
+#AWS CLI
+export PATH="$PATH:$HOME/Programs/Tools/aws-cli/v2/2.15.22/bin/"
+
+#IBM Cloud ClI
+export PATH="$PATH:$HOME/Programs/Tools/ibm_cloud_cli/"
+
+#Tekton CLI
+export PATH="$PATH:$HOME/Programs/Tools/tekton-cli/"
+
+#------------------------------
+# Tools
+#------------------------------
+
+#tfenv - terraform version manager
+export PATH="$PATH:$HOME/.tfenv/bin/"
+
+#terraform docs
+export PATH="$PATH:$HOME/Programs/Tools/terraform-docs/"
+
+#opentofu
+export PATH="$PATH:$HOME/Programs/Tools/opentofu/"
 
 #Kubernetes
-export PATH="$PATH:/home/guilherme/Programs/Tools/kubernetes/"
+export PATH="$PATH:$HOME/Programs/Tools/kubernetes/"
 
 #eksctl
-export PATH="$PATH:/home/guilherme/Programs/Tools/aws-eks/"
+export PATH="$PATH:$HOME/Programs/Tools/aws-eks/"
 
 #SQLite
-export PATH="$PATH:/home/guilherme/Programs/Tools/sqlite-tools/"
+export PATH="$PATH:$HOME/Programs/Tools/sqlite-tools/"
 
 #Golang
 export GOROOT=$HOME/Programs/Tools/go
 export PATH=$PATH:$GOROOT/bin
 export GOPATH=$HOME/Programs/Tools/golib
 export PATH=$PATH:$GOPATH/bin
-export GOPATH=$GOPATH:/home/guilherme/Projects/zerotomastery/golang
+export GOPATH=$GOPATH:$HOME/Documents/Configs/golang
 
 #Apache Maven
-export M2_HOME="/home/guilherme/Programs/Tools/apache-maven-3.9.4"
+export M2_HOME="$HOME/Programs/Tools/apache-maven-3.9.6/"
 export M2=$M2_HOME/bin
 export MAVEN_OPTS=-"Xms256m -Xmx512m"
 export PATH=$M2:$PATH
 
+#Rancher Desktop
+export PATH="$PATH:$HOME/.rd/bin"
+
 # Chrome executable
-export CHROME_EXECUTABLE='/usr/lib/chromium/chromium'
+#export CHROME_EXECUTABLE='/usr/lib/chromium/chromium'
 
-#===========================================
-# Servers
-#===========================================
-
-#Apache tomcat
-export CATALINA_HOME="/home/guilherme/Programs/Servers/apache-tomcat-10.1.13"
-export PATH=$PATH:$CCATALINA_HOME/bin
-
-#Wildfly
-export JBOSS_HOME="/home/guilherme/Programs/Servers/wildfly-29.0.0"
-export PATH=$PATH:$JBOSS_HOME/bin
-
-#===========================================
-# Programs
-#===========================================
-
-#Android Studio
-export PATH="$PATH:/home/guilherme/Programs/IDEs/android-studio/bin/"
-
-#DBeaver
-export PATH="$PATH:/home/guilherme/Programs/IDEs/dbeaver/"
-
-#SQLiteStudio
-export PATH="$PATH:/home/guilherme/Programs/IDEs/sqlitestudio/"
-
-#Postman
-export PATH="$PATH:/home/guilherme/Programs/Applications/postman/app/"
-
-#FileZilla 3
-export PATH="$PATH:/home/guilherme/Programs/Tools/filezilla3/bin/"
-
-#Firefox
-export PATH="$PATH:/home/guilherme/Programs/Browsers/firefox/"
-
+#NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ClickUp
+Exec=/home/guilherme/Programs/Applications/clickup/clickup.AppImage %U
+Terminal=false
+Type=Application
+Icon=/home/guilherme/Documents/Configs/desktop_icons/icon_img/clickup.png
+StartupWMClass=ClickUp
+Comment=Manage Teams & Tasks
+Categories=Utility;Office;

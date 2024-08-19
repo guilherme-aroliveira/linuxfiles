@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Maltego
+Comment=Visualise, Map and Mine Data
+Encoding=UTF-8
+Exec=/home/ghost/Programs/HackingTools/maltego_4.6.0/bin/maltego %U
+Icon=/home/ghost/Documents/configs/Desktop_Icons/icon_img/maltego.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=Application;Network;Security;
+Actions=ShowWebsite;
+StartupWMClass=Maltego

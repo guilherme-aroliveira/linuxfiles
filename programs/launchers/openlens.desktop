@@ -1,0 +1,10 @@
+[Desktop Entry]
+Versio=1.0
+Name=Openlens
+Comment=Kubernetes IDE
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/IDEs/lens/OpenLens-6.5.2-366.x86_64.AppImage %U
+Icon=/home/guilherme/Documents/Configs/desktop_icons/icon_img/lens.png
+Categories=Development;IDE;
+Terminal=false

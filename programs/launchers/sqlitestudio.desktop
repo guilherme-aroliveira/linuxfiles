@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=SQLiteStudio 
+Comment=Create, edit, browse SQLite databases
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/IDEs/sqlitestudio/sqlitestudio %U
+Icon=/home/guilherme/Documents/icons/sqlitestudio.png
+Categories=Application;Development;IDE;
+Terminal=false
+StartupNotify=true

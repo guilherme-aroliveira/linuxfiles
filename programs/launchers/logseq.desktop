@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Logseq
+Comment=A privacy-first, open-source knowledge base
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/Applications/logseq/Logseq-linux-x64-0.10.6.AppImage %U
+Icon=/home/guilherme/Documents/Configs/desktop_icons/icon_img/logseq.png
+Categories=Office;Utility;TextEditor
+Terminal=false

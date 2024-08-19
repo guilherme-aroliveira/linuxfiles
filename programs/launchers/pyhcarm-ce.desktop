@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=PyCharm Community Edition 2023.2.1
+Icon=/home/guilherme/Documents/icons/pycharm.png
+StartupWMClass=jetbrains-pycharm-ce
+Comment=The IDE for Pure Python Development
+Exec=/home/guilherme/Programs/IDEs/pycharm-ce/bin/pycharm.sh %u
+Version=1.0
+Type=Application
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true

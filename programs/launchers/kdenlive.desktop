@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Kdenlive
+Comment=Video Editor Used by Millions
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/Applications/kdenlive/kdenlive-23.08.1-x86_64.Appimage %U
+Icon=/home/guilherme/Documents/icons/kdenlive.png
+Categories=Graphics;3DGraphics;
+Terminal=false

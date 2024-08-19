@@ -1,0 +1,17 @@
+[Desktop Entry]
+Version=1.0
+Name=Thunderbird
+Comment=Free email application
+GenericName=Mail Client
+Exec=/home/ghost/Programs/Applications/thunderbird/thunderbird %U
+Icon=/home/ghost/Documents/configs/Desktop_Icons/icon_img/thunderbird.png
+Type=Application
+StartupNotify=true
+StartupWMClass=Thunderbird
+Categories=Network;Email;
+Keywords=email;internet;
+Actions=NewMessage
+
+[Desktop Action NewMessage]
+Name=New Message
+Exec=thunderbird mailto:

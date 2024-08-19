@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Git Cola
+Comment=The highly caffeinated Git GUI
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/Applications/git-cola-4.3.0/bin/git-cola %U
+Icon=/home/guilherme/Documents/icons/git-cola.png
+Categories=Application;Development;RevisionControl;
+Terminal=false
+

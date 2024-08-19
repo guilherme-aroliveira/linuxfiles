@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Scene Builder
+Comment=Drag & Drop, Rapid Application Development
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/IDEs/scenebuilder/bin/SceneBuilder %U
+Icon=/home/guilherme/Documents/icons/builder.png
+Categories=Application;Development;IDE;
+Terminal=false
+StartupNotify=true
+

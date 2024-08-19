@@ -1,0 +1,83 @@
+{
+    
+    "workbench.startupEditor": "none",
+    "editor.formatOnPaste": false,
+    "files.autoSave": "afterDelay",
+    "redhat.telemetry.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmPasteNative": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "projectNameInStatusBar.align": "left",
+    "files.associations": {
+        "*html" : "html",
+        "*json": "json",
+        "*yaml": "yaml"
+    },
+
+    
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro",
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#689d6a",
+    },
+    "editor.tokenColorCustomizations":
+    {
+
+        "[One Dark Pro]":
+        {
+            "textMateRules": [
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#229977",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        }
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+    
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "yaml.schemaStore.enable": false,
+
+    
+    "[terraform]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file"
+    },
+    "terraform.codelens.referenceCount": true,
+    "terraform.languageServer.terraform.path": "home/guilherme/.tfenv/versions/1.7.4/",
+    "terraform.languageServer.path": "home/guilherme/.tfenv/versions/1.7.4/",
+
+    
+
+    
+    "java.configuration.runtimes": [
+
+        {
+            "name": "JavaSE-17",
+            "path": "/usr/lib/jvm/java-17-openjdk-amd64/",
+            "default": true
+        }
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/guilherme/Programs/Tools/javafx-sdk-21.0.2/lib/javaxfx.swt.jar",
+        "/home/guilherme/Programs/Tools/javafx-sdk-21.0.2/lib/javaxfx.base.jar",
+        "/home/guilherme/Programs/Tools/javafx-sdk-21.0.2/lib/javaxfx.controls.jar",
+        "/home/guilherme/Programs/Tools/javafx-sdk-21.0.2/lib/javaxfx.fxml.jar",
+        "/home/guilherme/Programs/Tools/javafx-sdk-21.0.2/lib/javaxfx.graphics.jar",
+        "/home/guilherme/Programs/Tools/javafx-sdk-21.0.2/lib/javaxfx.media.jar",
+        "/home/guilherme/Programs/Tools/javafx-sdk-21.0.2/lib/javaxfx.swing.jar",
+        "/home/guilherme/Programs/Tools/javafx-sdk-21.0.2/lib/javaxfx.web.jar"
+    ]
+}

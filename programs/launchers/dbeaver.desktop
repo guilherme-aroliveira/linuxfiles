@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=DBeaver Community
+Comment=Free Universal Database Tool
+Type=Application
+Encoding=UTF-8
+Exec=/home/guilherme/Programs/IDEs/dbeaver-ce/dbeaver %U
+Icon=/home/guilherme/Documents/icons/dbeaver.png
+Categories=Application;Development;
+Terminal=false
+StartupNotify=true
+

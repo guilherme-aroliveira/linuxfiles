@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Android Studio Giraffe 2022.3.1 Patch 1
+Icon=/home/guilherme/Documents/icons/android-studio.png
+StartupWMClass=jetbrains-studio
+Comment=An IDE for Android app development
+Exec=/home/guilherme/Programs/IDEs/android-studio/bin/studio.sh %u
+Version=1.0
+Type=Application
+Categories=Development;IDE;
+Terminal=false
+StartupNotify=true

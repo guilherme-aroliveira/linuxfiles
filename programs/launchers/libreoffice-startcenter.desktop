@@ -1,0 +1,46 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+NoDisplay=false
+Icon=/home/guilherme/Documents/Configs/desktop_icons/icon_img/libreoffice-startcenter.png
+Type=Application
+Categories=Office;X-Red-Hat-Base;X-SuSE-Core-Office;X-MandrivaLinux-Office-Other;
+Exec=/home/guilherme/Programs/Applications/libreoffice/LibreOffice-fresh.standard-x86_64.AppImage %U
+MimeType=application/vnd.openofficeorg.extension;x-scheme-handler/vnd.libreoffice.cmis;x-scheme-handler/vnd.sun.star.webdav;x-scheme-handler/vnd.sun.star.webdavs;x-scheme-handler/vnd.libreoffice.command;x-scheme-handler/ms-word;x-scheme-handler/ms-powerpoint;x-scheme-handler/ms-excel;x-scheme-handler/ms-visio;x-scheme-handler/ms-access;
+Name=LibreOffice Start Center
+GenericName=Office
+Comment=Launch applications to create text documents, spreadsheets, presentations, drawings, formulas, and databases, or open recently used documents.
+StartupNotify=true
+X-GIO-NoFuse=true
+StartupWMClass=libreoffice-startcenter
+X-KDE-Protocols=file,http,ftp,webdav,webdavs
+X-AppStream-Ignore=True
+
+##Define Actions
+Actions=Writer;Calc;Impress;Draw;Base;Math;
+
+[Desktop Action Writer]
+Name=Writer
+Exec=/home/guilherme/Programs/Applications/libreoffice/LibreOffice-fresh.standard-x86_64.AppImage --writer
+
+[Desktop Action Calc]
+Name=Calc
+Exec=/home/guilherme/Programs/Applications/libreoffice/LibreOffice-fresh.standard-x86_64.AppImage --calc
+
+[Desktop Action Impress]
+Name=Impress
+Exec=/home/guilherme/Programs/Applications/libreoffice/LibreOffice-fresh.standard-x86_64.AppImage --impress
+
+[Desktop Action Draw]
+Name=Draw
+Exec=/home/guilherme/Programs/Applications/libreoffice/LibreOffice-fresh.standard-x86_64.AppImage --draw
+
+[Desktop Action Base]
+Name=Base
+Exec=/home/guilherme/Programs/Applications/libreoffice/LibreOffice-fresh.standard-x86_64.AppImage --base
+
+[Desktop Action Math]
+Name=Math
+Exec=/home/guilherme/Programs/Applications/libreoffice/LibreOffice-fresh.standard-x86_64.AppImage --math
+
+##End of actions menu

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Stacks 2
+Exec=/home/guilherme/Programs/Applications/stacks/stacks.AppImage %U
+Terminal=false
+Type=Application
+Icon=/home/guilherme/Documents/Configs/desktop_icons/icon_img/stacks.png
+StartupWMClass=Stacks 2
+Comment=Your personal kanban to do and project manager
+MimeType=x-scheme-handler/stacks;
+Categories=Utility;
