@@ -1,0 +1,15 @@
+[user]
+	name = Guilherme Oliveira
+	email = oliveira.g.ar@proton.me
+[includeIf "gitdir:~/Workspace/"]
+	path = .gitconfig-job
+[cola]
+	startupmode = list
+	icontheme = dark
+	statusshowtotals = false
+	boldheaders = false
+	theme = flat-dark-blue
+[color]
+	ui = true
+[core]
+	editor = vscodium
